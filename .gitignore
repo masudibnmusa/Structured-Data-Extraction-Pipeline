@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/pipeline.db
+data/raw_documents/*
+data/extracted/*
+data/review_queue/*
+data/ground_truth/*
+!data/**/.gitkeep
